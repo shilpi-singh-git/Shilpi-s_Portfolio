@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 
-import sia from "../assets/images/sia.png";
-import netflix from "../assets/images/netflix.png";
-import cloudnotes from "../assets/images/cloudnotes.png";
+import sia from "../assets/images/SIA.png";
+import netflix from "../assets/images/Netflix.png";
+import cloudnotes from "../assets/images/Cloudnotes.png";
 
 const projects = [
   {
