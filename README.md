@@ -1,16 +1,135 @@
-# React + Vite
+# 🌐 Shilpi's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built using **React.js**, **Vite**, and **Tailwind CSS**. This portfolio showcases my projects, technical skills, resume, and provides a contact form for recruiters and clients to get in touch.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://your-live-link.vercel.app
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Portfolio Screenshot](./public/preview.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Responsive Design
+- Modern UI/UX
+- About Me Section
+- Skills Showcase
+- Projects Section
+- Resume Download
+- Contact Form using Web3Forms
+- GitHub & LinkedIn Links
+- Smooth Scrolling
+- Fast Performance with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- React Icons
+- React Hot Toast
+- Web3Forms
+
+---
+
+## 📂 Folder Structure
+
+```
+portfolio-react/
+│
+├── public/
+│   ├── resume.pdf
+│   └── icons.svg
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Education.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/shilpi-singh-git/Shilpi-s_Portfolio.git
+```
+
+Go to project directory
+
+```bash
+cd Shilpi-s_Portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_WEB3FORMS_ACCESS_KEY=YOUR_ACCESS_KEY
+```
+
+---
+
+## 📬 Contact
+
+**Shilpi Singh**
+
+📧 Email: shilpisingh9691@gmail.com
+
+💼 LinkedIn:
+https://www.linkedin.com/in/shilpi-singh05/
+
+💻 GitHub:
+https://github.com/shilpi-singh-git
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
